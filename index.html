@@ -38,17 +38,13 @@
         main {
             display: flex;
             flex-wrap: nowrap;
-            height: 100vh;
             height: -webkit-fill-available;
-            max-height: 100vh;
             overflow-x: auto;
-            overflow-y: hidden;
         }
 
         .b-example-divider {
             flex-shrink: 0;
             width: 1.5rem;
-            height: 100vh;
             background-color: rgba(0, 0, 0, .1);
             border: solid rgba(0, 0, 0, .15);
             border-width: 1px 0;
@@ -357,7 +353,7 @@
                     </div>
                 </div>
                 <div class="col-12">
-                    <table class="table table-bordered border-success">
+                    <table class="table table-success table-striped">
                         <thead>
                         <tr>
                             <th scope="col">номер</th>
@@ -371,20 +367,52 @@
                         <tbody>
                         <tr>
                             <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
+                            <td>помидоры</td>
+                            <td>150</td>
+                            <td>3</td>
+                            <td>450</td>
+                            <td>
+                                <div class="alert alert-primary" role="alert">
+                                    новый
+                                </div>
+                            </td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
+                            <td>помидоры</td>
+                            <td>150</td>
+                            <td>3</td>
+                            <td>450</td>
+                            <td>
+                                <div class="alert alert-warning" role="alert">
+                                    обработка
+                                </div>
+                            </td>
                         </tr>
                         <tr>
                             <th scope="row">3</th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@twitter</td>
+                            <td>помидоры</td>
+                            <td>150</td>
+                            <td>3</td>
+                            <td>450</td>
+                            <td>
+                                <div class="alert alert-success" role="alert">
+                                    обработан
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>помидоры</td>
+                            <td>150</td>
+                            <td>3</td>
+                            <td>450</td>
+                            <td>
+                                <div class="alert alert-danger" role="alert">
+                                    отмена
+                                </div>
+                            </td>
                         </tr>
                         </tbody>
                     </table>
