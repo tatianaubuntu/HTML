@@ -265,6 +265,7 @@
 
         <main class="row">
             <div class="row text-center">
+
                 <div class="col-4">
                     <div class="card mb-4 rounded-3 shadow-sm">
                         <div class="card-header py-3">
@@ -282,6 +283,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-4">
                     <form>
                         <div class="mb-3">
@@ -295,65 +297,69 @@
                         <button type="submit" class="w-100 btn btn-lg btn-success">Отправить</button>
                     </form>
                 </div>
+
                 <div class="col-12">
-                    <h2 class="my-0 fw-normal">FAQ</h2>
+                    <header>
+                        <h2 class="my-0 fw-normal">
+                            <p>FAQ</p>
+                        </h2>
+                    </header>
                 </div>
+
                 <div class="col-4">
-                    <p>
-                        <button class="w-100 btn btn-secondary" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseWidthExample" aria-expanded="false"
-                                aria-controls="collapseWidthExample">
-                            Как купить?
-                        </button>
-                    </p>
-                    <div style="min-height: 120px;">
-                        <div class="collapse collapse-horizontal" id="collapseWidthExample">
-                            <div class="card card-body" style="width: 300px;">
-                                This is some placeholder content for a horizontal collapse. It's hidden by default and
-                                shown
-                                when triggered.
+                    <button class="w-100 btn btn-secondary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#multiCollapseExample2" aria-expanded="false"
+                            aria-controls="multiCollapseExample2">
+                        Как купить?
+                    </button>
+                    <div class="row">
+                        <div class="col">
+                            <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                <div class="card card-body">
+                                    Нажмите на кнопку "Купить"
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-4">
-                    <p>
-                        <button class="w-100 btn btn-secondary" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseWidthExample1" aria-expanded="false"
-                                aria-controls="collapseWidthExample1">
-                            Как доставить?
-                        </button>
-                    </p>
-                    <div style="min-height: 120px;">
-                        <div class="collapse collapse-horizontal" id="collapseWidthExample1">
-                            <div class="card card-body" style="width: 300px;">
-                                This is some placeholder content for a horizontal collapse. It's hidden by default and
-                                shown
-                                when triggered.
+                    <button class="w-100 btn btn-secondary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#multiCollapseExample1" aria-expanded="false"
+                            aria-controls="multiCollapseExample1">
+                        Как доставить?
+                    </button>
+                    <div class="row">
+                        <div class="col">
+                            <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                <div class="card card-body">
+                                    На машине
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-4">
-                    <p>
-                        <button class="w-100 btn btn-secondary" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseWidthExample2" aria-expanded="false"
-                                aria-controls="collapseWidthExample2">
-                            Какая гарантия?
-                        </button>
-                    </p>
-                    <div style="min-height: 120px;">
-                        <div class="collapse collapse-horizontal" id="collapseWidthExample2">
-                            <div class="card card-body" style="width: 300px;">
-                                This is some placeholder content for a horizontal collapse. It's hidden by default and
-                                shown
-                                when triggered.
+                    <button class="w-100 btn btn-secondary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#multiCollapseExample3" aria-expanded="false"
+                            aria-controls="multiCollapseExample3">
+                        Какая гарантия?
+                    </button>
+                    <div class="row">
+                        <div class="col">
+                            <div class="collapse multi-collapse" id="multiCollapseExample3">
+                                <div class="card card-body">
+                                    3 месяца
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-12">
-                    <table class="table table-success table-striped">
+                    <br><br>
+                    <table class="table align-middle table-bordered border-success">
                         <thead>
                         <tr>
                             <th scope="col">номер</th>
@@ -417,12 +423,15 @@
                         </tbody>
                     </table>
                 </div>
+
             </div>
         </main>
 
     </div>
 
 </main>
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
